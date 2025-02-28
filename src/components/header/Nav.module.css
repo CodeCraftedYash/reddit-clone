@@ -1,0 +1,44 @@
+nav {
+    width: 15rem;
+    height: fit-content;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.navList {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.3rem;
+    margin: 0 2rem 0 0;
+}
+
+.popularLogo {
+    display: inline;
+    color: var(--secondary-color);
+    transform: translateX(.3rem);
+    white-space: nowrap;
+}
+
+.arrow {
+    transform: translateX(-.3rem) scale(1.5);
+}
+
+.navPopular {
+    color:var(--secondary-color);
+    width: fit-content;
+}
+
+.allLogo {
+    transform: scale(1.5);
+}

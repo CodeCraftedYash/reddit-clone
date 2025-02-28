@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1.4rem 0 0.9rem 0 ;
+}
+.left{
+    width: 9rem;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+}
