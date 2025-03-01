@@ -1,0 +1,47 @@
+.container {
+    min-width: fit-content;
+    height: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification {
+    font-size: larger;
+    position: relative;
+    transform: translateY(.3rem);
+    cursor: pointer;
+}
+
+.unseen {
+    background-color: red;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.message {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.account {
+    display: flex;
+    flex-flow: row nowrap;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap:.5rem;
+    cursor: pointer;
+}
+
+.userPic {
+    width: 2rem;
+    height: auto;
+    aspect-ratio:1/1;
+    border-radius: 100%;
+}
