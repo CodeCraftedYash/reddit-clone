@@ -17,7 +17,7 @@ function Header() {
               </Button> 
         </div>
 
-        <div>
+        <div className={styles.right}>
               <Account />
         </div>
     </header>
