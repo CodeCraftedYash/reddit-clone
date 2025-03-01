@@ -1,0 +1,9 @@
+.homeContainer {
+    width: calc(100% - 2rem);
+    min-height:fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: var(--primary-color);
+    margin: 0 auto 0 auto;
+    overflow-y: hidden;
+}
