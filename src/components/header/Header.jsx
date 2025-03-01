@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import {Logo, ThemeSwitcher,Nav} from './index';
+import {Logo, ThemeSwitcher,Nav, Search, Button} from './index';
 function Header() {
   return (
     <header className={styles.header}>
@@ -9,8 +9,12 @@ function Header() {
             <Logo />
         </div>
 
-        <div>
+        <div className={styles.center}>
               <Nav />
+              <Search />
+              <Button  variant="primary" size="medium"> 
+                  Create Post
+              </Button> 
         </div>
 
         <div>

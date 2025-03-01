@@ -1,0 +1,29 @@
+.button {
+    min-width: fit-content;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.button:hover{
+    box-shadow: 1px 1px 1px 1px black;
+}
+.primary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.secondary{
+    background-color: var(--primary-color);
+    color: var(--seconadary-color);
+}
+.small{
+    width:6rem;
+    height: 3rem;
+}
+.medium{
+    width: 10rem;
+    height: 3rem;
+}
+.large{
+    width:14rem;
+    height: 3rem;
+}

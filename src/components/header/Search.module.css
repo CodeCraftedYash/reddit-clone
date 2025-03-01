@@ -1,0 +1,29 @@
+.search{
+    width: 18rem;
+    height: 3rem;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: var(--background-color);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: .5rem;
+    border-radius: .4rem;
+}
+input {
+    width: full;
+    height: 2rem;
+    background-color: var(--background-color);
+    border:none;
+    margin-left:.5rem ;
+    font-size: var(--text-size);
+}
+input:focus{
+    outline: none;
+}
+.icon {
+    width: 1.5rem;
+    height: auto;
+    color: var(--secondary-text-color);
+}

@@ -1,16 +1,30 @@
 .header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    padding: 1.4rem 0 0.9rem 0 ;
-}
-.left{
-    width: 9rem;
-    height: fit-content;
+    max-width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin-left: 1.5rem;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.left{
+    min-width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.center {
+    min-width: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }

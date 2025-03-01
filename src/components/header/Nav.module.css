@@ -1,5 +1,6 @@
 nav {
-    width: 15rem;
+    width: 20rem;
+    min-width: fit-content;
     height: fit-content;
     
 }
