@@ -6,7 +6,7 @@ import { LuChartNoAxesColumnIncreasing } from "react-icons/lu";
 import { CgMoveUp } from "react-icons/cg";
 function Nav() {
   return (
-    <nav>
+    <nav className={styles.nav}>
         <ul className={styles.navbar}>
             <li className={styles.navList}>
                <CgHome />
