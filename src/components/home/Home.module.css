@@ -1,9 +1,20 @@
 .homeContainer {
     width: calc(100% - 2rem);
-    min-height:fit-content;
+    min-height:100%;
     display: flex;
     flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
     background-color: var(--primary-color);
     margin: 0 auto 0 auto;
     overflow-y: hidden;
+}
+.rightSection{
+    width: 18vw;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: .6rem;
 }
