@@ -11,7 +11,7 @@
 .individualSquare {
     width: .3rem;
     height: .3rem;
-    background-color: var(--secondary-text-color);
+    background-color: var(--light-gray-color);
 }
 
 .circleDesign {
@@ -20,6 +20,6 @@
     position: absolute;
     top: -2rem;
     right: -2rem;
-    border: .4rem solid var(--secondary-text-color);
+    border: .4rem solid var(--light-gray-color);
     border-radius: 100%;
 }
