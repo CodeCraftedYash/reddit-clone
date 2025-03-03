@@ -37,7 +37,7 @@
     margin-left: .5rem;
     display: flex;
     flex-flow: column nowrap;
-    border-bottom: 3px solid rgba(200, 200, 200, 0.2);
+    border-bottom: 3px solid var(--light-gray-color);
     padding-bottom: 1.8rem;
 }
 
@@ -67,7 +67,7 @@
 .num {
     width: 1.5rem;
     height: 1rem;
-    background-color: rgba(200, 200, 200, 0.321);
+    background-color: var(--light-gray-color);
     border-radius: .3rem;
     text-align: center;
 }
