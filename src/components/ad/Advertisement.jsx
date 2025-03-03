@@ -3,6 +3,8 @@ import styles from './Advertisement.module.css';
 import adPoster from '../../assets/images/Ads/summerSale.jpg'
 import Logo from '../header/Logo';
 import Button from '../button/Button';
+import LeftDesign from './LeftDesign';
+import RightDesign from './RightDesign';
 function Advertisement() {
   return (
     <section className={styles.adContainer}>
@@ -15,6 +17,8 @@ function Advertisement() {
                 <h2>Advertise on Reddit</h2>
                 <Button variant="secondary" size="large" >GET STARTED</Button>
             </div>
+           <LeftDesign />
+           <RightDesign />
         </div>
     </section>
   )
