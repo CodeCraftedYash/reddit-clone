@@ -1,8 +1,9 @@
 .button {
     min-width: fit-content;
-    border: 1px solid var(--secondary-color);
+    border: 3px solid var(--secondary-color);
     cursor: pointer;
     border-radius: .5rem;
+    font-weight: bold;
 }
 .button:hover{
     box-shadow: 1px 1px 1px 1px black;
@@ -12,8 +13,8 @@
     color: var(--primary-color);
 }
 .secondary{
-    background-color: var(--primary-color);
-    color: var(--seconadary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
 }
 .small{
     width:6rem;
