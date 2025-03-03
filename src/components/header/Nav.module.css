@@ -1,15 +1,15 @@
 .nav {
-    width: 21rem;
-    min-width: fit-content;
+    width: 20vw;
     height: fit-content;
 }
 
 .navbar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     align-items: center;
+    margin-left: 1vw;
 }
 
 .navList {
@@ -19,7 +19,6 @@
     align-items: center;
     cursor: pointer;
     gap: 0.4rem;
-    margin: 0 2rem 0 0;
 }
 
 .popularLogo {
