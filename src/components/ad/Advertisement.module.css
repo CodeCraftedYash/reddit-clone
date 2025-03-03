@@ -14,6 +14,10 @@
     overflow: hidden;
 }
 
+.adPosterContainer:last-child {
+    padding-bottom: 1rem;
+}
+
 .ad {
  height: 100%;
 }
@@ -26,5 +30,5 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: end;
-    margin-bottom: 1rem;
+
 }
