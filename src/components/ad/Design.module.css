@@ -1,0 +1,25 @@
+.squareContainer {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    top: 0.5rem;
+    left:0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.individualSquare {
+    width: .3rem;
+    height: .3rem;
+    background-color: var(--secondary-text-color);
+}
+
+.circleDesign {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+    border: .4rem solid var(--secondary-text-color);
+    border-radius: 100%;
+}
