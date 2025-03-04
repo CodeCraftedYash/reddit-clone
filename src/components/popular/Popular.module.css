@@ -1,0 +1,10 @@
+.container {
+    width: 55vw;
+    height: 88vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 1rem;
+    border-radius: .6rem;
+}
+
