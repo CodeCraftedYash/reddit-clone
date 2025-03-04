@@ -1,0 +1,39 @@
+.footerContainer {
+    width: 100%;
+    height: 20vh;
+    border-top: 2px solid var(--light-gray-color);
+}
+
+.linksContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: .5rem;
+}
+
+.link {
+    color: var(--secondary-text-color);
+    text-wrap: nowrap;
+    color: var(--secondary-text-color);
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-2vw);
+}
+
+.lastRow {
+    border-top: 2px solid var(--light-gray-color);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.privacyTerms {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.textElement {
+    color:var(--secondary-text-color)
+}
