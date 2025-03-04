@@ -3,8 +3,9 @@
     --secondary-color: #FF4500;
     --background-color: #ffffff;
     --text-color: #000000;
-    --secondary-text-color:rgba(200, 200, 200, 0.321);
+    --secondary-text-color:rgb(88, 88, 88);
+    --light-gray-color:rgba(200, 200, 200, .321);
     --font-family: 'Inter', sans-serif;
     --font-size-base: 16px;
-
+    --font-size-small:12px;
   }
