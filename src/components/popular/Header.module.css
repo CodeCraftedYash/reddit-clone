@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.popularLink:active {
+    background-color: rgba(200, 200, 200, 0.321);
+}
