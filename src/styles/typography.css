@@ -14,6 +14,7 @@ body {
   h2 {
     font-size: .85rem;
     font-weight:600;
+    color: var(--secondary-text-color);
   }
 
   h3 {
@@ -28,5 +29,4 @@ body {
   }
   a {
     text-decoration: none;
-    color:var(--text-color)
   }
