@@ -1,10 +1,11 @@
 .header {
     width: 100%;
     height: fit-content;
-    display: flex;
+    display: inline-flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+    padding:0 1rem
 }
 
 .list {
@@ -12,9 +13,19 @@
     flex-flow: row nowrap;
     gap: 2rem;
     list-style: none;
-    margin-right: 1rem;
+    width: 100%;
+    margin-right: 2rem;
+}
+
+.popularLink {
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.activeLink {
+    color:var(--secondary-color);
 }
 
 .popularLink:active {
     background-color: rgba(200, 200, 200, 0.321);
-}
+} 
