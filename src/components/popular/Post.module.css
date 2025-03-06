@@ -91,3 +91,13 @@
 .arrows:hover {
     cursor: pointer;
 }
+
+.loading {
+    color:var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.error {
+    color:var(--primary-color);
+    background-color: var(--secondary-color);
+}
