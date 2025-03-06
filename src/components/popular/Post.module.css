@@ -1,0 +1,93 @@
+.postContainer {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 55vw;
+    height: 18vh;
+    border-radius: .6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    border: 2px solid var(--light-gray-color);
+}
+
+.leftComponent {
+    width: 40vw;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.Img {
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.containerMainTitle {
+    width: 100%;
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.text1 {
+    margin: 0;
+}
+
+.containerAuthorDate {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.text2 {
+    margin:0 1rem 0 0;
+ 
+}
+
+.text2:nth-child(2) {
+    color: var(--secondary-text-color);
+}
+
+.rightComponent {
+    width: 14vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.commentShareContainer{
+    margin: auto 0 auto 1rem;
+    
+}
+
+.containerIconText {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .5rem;
+    align-items: center;
+    justify-content: left;
+    margin: 1rem 0;
+}
+
+.containerUpvotes {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    margin-right: 1rem;
+    border-left: 2px solid var(--light-gray-color) ;
+}
+
+.arrows {
+    background-color: rgb(255, 232, 239);
+    padding: .2rem;
+    color:var(--secondary-color)
+}
+.arrows:hover {
+    cursor: pointer;
+}
