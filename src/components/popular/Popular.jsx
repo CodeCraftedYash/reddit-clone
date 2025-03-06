@@ -14,7 +14,7 @@ function Popular() {
         <Header sort={sort} setSort={setSort} />
         <div className={styles.postContainer}>
           {posts.map((item)=>(
-            <Post post={item}/>
+            <Post post={item} loading={loading} error={error}/>
           ))}  
         </div>
     </section>
