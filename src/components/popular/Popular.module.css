@@ -1,5 +1,5 @@
 .container {
-    width: 55vw;
+    width: 57vw;
     height: 88vh;
     background-color: var(--background-color);
     display: flex;
@@ -8,3 +8,15 @@
     border-radius: .6rem;
 }
 
+.postContainer {
+    width: 97%;
+    height: 82vh;
+    margin: 0 auto 0 auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: transparent;
+}
+
+.postContainer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
