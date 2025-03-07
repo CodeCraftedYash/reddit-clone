@@ -7,7 +7,7 @@ import { IoIosMore } from "react-icons/io";
 import { FaChevronUp } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 function Post({post,loading,error}) {
-    const { title, author, created_utc, thumbnail, num_comments, ups, permalink, num_crossposts } = post;
+    const { title, author, created_utc, thumbnail, num_comments, ups, num_crossposts } = post;
     const truncText = (text,maxLength=25)=>{
         return text.length > maxLength ? text.slice(0,maxLength) + "..." : text;
     }
