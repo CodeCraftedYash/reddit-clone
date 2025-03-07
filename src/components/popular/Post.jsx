@@ -21,7 +21,7 @@ function Post({post,loading,error}) {
         <div className={styles.containerMainTitle}>
             <h2 className={styles.text1}>{truncText(title,115)}</h2>
             <div className={styles.containerAuthorDate}>
-                <h3 className={styles.text2} >{author}</h3>
+                <h3 className={styles.text2} ><span className={styles.author}>posted by</span>{author}</h3>
                 <h3 className={styles.text2}>{formatedDate(created_utc)}</h3>
             </div>
         </div>
