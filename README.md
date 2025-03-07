@@ -1,12 +1,33 @@
-# React + Vite
+# 📌 Reddit Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Reddit clone built with **React, CSS Modules, and React Icons**, designed to replicate the look and feel of Reddit while fetching live posts dynamically from the **Reddit API**.  
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔥 **Popular Posts**: Fetches posts from a specific subreddit dynamically.
+- 📌 **Sorting**: Supports sorting options like `hot`, `new`, and `controversial`.
+- ⏩ **Pagination (Optional)**: Uses `after` and `before` parameters for infinite scrolling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📡 API Usage
+The project uses the **Reddit API** to fetch posts dynamically:
+- Fetch popular posts: https://www.reddit.com/r/{subreddit}/{sort}/.json?limit={limit}
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tech Stack
+
+## 🛠️ Tech Stack
+- ⚛️ **React**
+- 🎨 **CSS Modules**
+- 🎭 **React Icons**
+- 🌐 **Reddit API (REST)**
+
+
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at 
+
+https://www.linkedin.com/in/yash-mishra1000/
+https://www.instagram.com/yash_coding/
