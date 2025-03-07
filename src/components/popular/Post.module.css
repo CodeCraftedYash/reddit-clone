@@ -101,3 +101,8 @@
     color:var(--primary-color);
     background-color: var(--secondary-color);
 }
+
+.author {
+    color: var(--secondary-text-color);
+    padding-right: 1rem;
+}
