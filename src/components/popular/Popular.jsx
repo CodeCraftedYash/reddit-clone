@@ -30,6 +30,10 @@ function Popular() {
         containerRef.current.scrollTo({ top: 0, behavior: "smooth" });
     }
   }
+  //reset page no. to 1 when changing sort
+  useEffect (()=>{
+    setCurrentPage(1);
+  },[sort])
   return (
     <section className={styles.container}>
         <Header sort={sort} setSort={setSort} />
