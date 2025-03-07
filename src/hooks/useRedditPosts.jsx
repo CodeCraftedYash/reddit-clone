@@ -9,7 +9,7 @@ const useRedditPosts = (subreddit, sort) => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch(`https://www.reddit.com/r/${subreddit}/${sort}.json?limit=10`);
+        const response = await fetch(`https://www.reddit.com/r/${subreddit}/${sort}.json?limit=60`);
         if (!response.ok) throw new Error("Failed to fetch posts");
         const data = await response.json();
         setPosts(data.data.children.map((child) => child.data));
