@@ -11,7 +11,7 @@ function Post({post,loading,error}) {
     const truncText = (text,maxLength=25)=>{
         return text.length > maxLength ? text.slice(0,maxLength) + "..." : text;
     }
-    const imageUrl =thumbnail?.startsWith("http") ? thumbnail : null;
+    const imageUrl =thumbnail?.includes("thumbs") ? thumbnail : null;
     if (loading) return <p className={styles.loading}>Loading posts...</p>;
     if (error) return <p className={styles.error}>Error: {error}</p>;
   return (
